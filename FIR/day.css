@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMzQ3NThjNDktMmNlNi00MzhmLWEzZjktZjc4MTEyZmYyNWNkXkEyXkFqcGdeQXVyNTMyODM3MTg@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    background-color: #050505;;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title h1 {
+    color: #fc2611;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+}

@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://dgpuo8cwvztoe.cloudfront.net/uploads/Season-Assets/Brochure-Assets/Pops/Holiday-Pops/_h_lg/Holiday-Pops-2021-Keith-Lockhart-Snow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #050505;;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title h1 {
+    color: #a7e4ff;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+}
