@@ -1,0 +1,27 @@
+body {
+    background-image: url('./fridge.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 5px 20px -3px rgb(0 0 0 / 70%);
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#title h1 {
+    color: white;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+}
