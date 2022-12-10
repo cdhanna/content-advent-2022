@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://i.pinimg.com/600x315/24/4d/67/244d671084bec6d3bfafedaa4ef7a694.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #a9cce9;;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: #edfaff;
+    text-decoration: none;
+}
+#title h1 {
+    color: #edfaff;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px #00000075;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
