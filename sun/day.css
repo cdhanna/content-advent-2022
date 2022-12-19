@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://static.wixstatic.com/media/78e52e_191eb533c69f42cbaca3090c41ba2b3f~mv2.png/v1/crop/x_1432,y_878,w_2630,h_2168/fill/w_958,h_792,al_c,q_95,enc_auto/DSC03320_edited.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(3,98,0);
+/* background: linear-gradient(0deg, rgba(3,98,0,1) 0%, rgba(65,255,56,1) 100%); */
+}
+
+img {
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 5px 20px -3px rgb(0 0 0 / 70%);
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title h1 {
+    color: white;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+}
