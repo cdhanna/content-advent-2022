@@ -1,0 +1,29 @@
+body {
+    /* background: url('./willies.png'); */
+    background-image: url(./willies.png), linear-gradient(#000000c9, #000000ed);
+    background-size: cover;
+    background-blend-mode: hue;
+    background-position-y: bottom;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 5px 20px -3px rgb(0 0 0 / 70%);
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+}
