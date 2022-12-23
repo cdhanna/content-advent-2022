@@ -1,0 +1,28 @@
+body {
+    background-image: url('./rain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    background-size: cover;display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 5px 20px -3px rgb(0 0 0 / 70%);
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#title h1 {
+    color: #73abff;
+    font-size: 4em;
+    text-shadow: 0px -1px 13px #2c196b;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
